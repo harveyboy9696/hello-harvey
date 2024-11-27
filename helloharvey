@@ -1,1 +1,56 @@
+import streamlit as st
+
+# Set the page configuration
+st.set_page_config(page_title="Marjon P. Vistal Biography", page_icon=":memo:", layout="wide")
+
+# Add a header and brief introduction
+st.title("Biography of Marjon P. Vistal")
+
+# About Me Section with expandable text
+with st.expander("About Me"):
+    st.write("""
+    Hello! My name is **Marjon P. Vistal**, I'm **20 years old**, and I live in **Brgy. Hayanggabon, Claver, Surigao Del Norte**. 
+    I love playing **basketball** and in my free time, I like to unwind by watching **anime**.
+    """)
+
+# Early Life Section with expandable text
+with st.expander("Early Life"):
+    st.write("""
+    I was born in **Taligaman, Butuan City**, and raised in **Brgy. Hayanggabon, Claver, Surigao Del Norte**, a small town where I developed my skills to play basketball. 
+    I really love this sport, and sometimes I watch **anime** to relax and clear my mind.
+    """)
+
+# Education Section with expandable text
+with st.expander("Education"):
+    st.write("""
+    I graduated from **Taganito National High School**. High school was an exciting time for me, as it gave me the chance to dive deeper into subjects that fascinated me, 
+    while also challenging me to expand my knowledge in new areas. I realized that education isn't just about memorizing facts; it's about learning how to apply that knowledge in the real world.
+    """)
+
+# Career Section with expandable text
+with st.expander("Career"):
+    st.write("""
+    After graduating from high school, I enrolled at **Surigao del Norte State University (SNSU)** to pursue a degree in **Computer Engineering**. 
+    This marks the beginning of my journey toward a career in technology, where I hope to contribute to solving real-world problems using my skills and knowledge.
+    """)
+
+# Hobbies and Interests Section with expandable text
+with st.expander("Hobbies and Interests"):
+    st.write("""
+    When I'm not playing basketball, I enjoy watching **anime** and taking **naps**. These activities help me relax and recharge for the day ahead.
+    """)
+
+# Contact Information Section
+st.header("Contact Information")
+st.write("""
+You can reach me at:
+
+📞 **Contact Number**: +63 912 557 1086
+
+📧 **Email**: [vestalmj4@gmail.com](mailto:vestalmj4@gmail.com)
+""")
+
+# Footer Section
+st.write("© 2024 Marjon P. Vistal | All rights reserved")
+
 
